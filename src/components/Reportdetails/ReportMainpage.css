@@ -1,0 +1,102 @@
+.Nav {
+  /* background-color: rgb(255, 255, 255); */
+  background-image: url(/src/assests/image/img5);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 649px;
+ 
+}
+
+.Border-container1 {
+  padding: 20px;
+  background: linear-gradient(90deg,
+      rgba(172, 217, 236) 0%,
+      rgba(172, 217, 236) 50%,
+      rgba(84, 180, 211, 1) 100%);
+  width: 630px;
+  /* border-Radius: 10px; */
+  /* box-Shadow: 1px 1px 3px 0.2px #888888; */
+  box-Shadow: 2px 2px 3px 2px #888888;
+  margin: 5px;
+  height: 400px;
+  margin-top: 40px;
+}
+
+
+
+.Report {
+  color: rgb(15, 15, 15);
+  font-family: 'Kalam';
+  margin-left: 100px;
+  font-size: 36px;
+
+}
+
+.line {
+  display: flex;
+  margin: auto;
+  margin-left: -30px;
+
+}
+
+
+.text-dark {
+  width: 200px;
+  margin-Left: 00px;
+  border: black 1.9px solid;
+  border-Radius: 4px;
+  
+}
+
+.Multidate {
+  justify-Content: space-evenly;
+  margin-Left: 10px;
+}
+
+.Radio {
+  margin-Left: 70px;
+  font-Size: 18px;
+  font-Family: italic;
+  padding: 50px;
+  display: flex;
+  appearance: auto;
+  color: rgb(26, 26, 117);
+}
+
+.Radio_Input {
+  width: 1rem;
+  height: 1rem;
+}
+
+.Radio_label {
+  margin-Left: 10px
+}
+
+.btn btn-primary {
+  width: 100px;
+  margin-Left: 460px
+}
+
+.Export-button {
+  height: 60px;
+  margin: 40px;
+}
+
+.align-left {
+  margin-Left: 20px
+}
+
+.Export-divide {
+  margin-left: 120px;
+}
+
+/* @media only screen and (max-width: 767px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .box {
+    width: 100%;
+  }
+} */

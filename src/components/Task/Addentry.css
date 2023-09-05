@@ -1,0 +1,121 @@
+  
+  /* Style the submit button */
+  .text2 {
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  /* input {
+    margin: 0 auto;
+    padding: 1rem;
+    height: 45px;
+    border: 1px solid rgb(39, 37, 37);
+    border-radius: 10px;
+    font-size: medium;
+    color: rgb(16, 16, 17);
+    display: flex;
+  } */
+  /* .easy{
+    
+  } */
+  
+  /* Style the container */
+  .containery {
+    border:0.5px solid;
+    height: 500px;
+    width: 931px;
+    border-radius: 8px;
+    font-family: cursive;
+    padding: 3rem;
+    background-color: white;
+  /* box-shadow: 10px 15px rgb(34, 33, 33); */
+  box-shadow: 8px 8px 9px 8px #888888;
+  margin-left: 155px;
+  background: linear-gradient(90deg, rgba(172, 217, 236) 0%, rgba(172, 217, 236) 50%, rgba(84, 180, 211, 1) 100%);
+  }
+  /* .week {
+   
+  } */
+  .left-col {
+    margin: 20px;
+    padding: 10px;
+    /* border: 1px solid; */
+  }
+  .containerx {
+    margin: 10px;
+    padding: 40px;
+    background-image: url(/src/assests/image/img5);
+    /* width: 90%; */
+    /* background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+   
+  }
+  
+  /* Floating column for labels: 25% width */
+  /* .col-25 {
+
+  } */
+.rightcolumn {
+  margin-left: 250px;
+  padding: 29px;
+  justify-content:flex-end ; 
+}
+  
+  /* Floating column for inputs: 75% width */
+  /* .col-75 {
+  
+  } */
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .button{
+    width: 40px;
+    
+  }
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .left-col, .rightcolumn, input[type=submit] {
+      width: 20%;
+      margin-top: 0;
+    }
+  }
+  .Input-Type{
+    padding: 10px;
+    border: 1px solid rgb(39, 37, 37);
+    border-radius: 10px;
+    font-size: medium;
+    color: rgb(16, 16, 17);
+    display: flex;
+
+  }
+
+.week{
+  margin: 0.5rem 0;
+}
+.details{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding:0.8rem;
+  border: radius 10px; 
+  
+}
+.save-button{
+  float: right;
+}
+.text{
+  font-size:30px
+}
+
+
+.Addinput{
+  padding:0.8rem;
+  border: radius 10px; 
+
+}
